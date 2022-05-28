@@ -19,6 +19,8 @@ You should check this article to understand deeper how this works
 Output log (without build)
 
 ```
+$ make
+<redacted>
 $ docker ps
 CONTAINER ID   IMAGE               COMMAND                  CREATED          STATUS          PORTS     NAMES
 dd9505b8a7c4   tor-in-docker_tor   "/bin/sh -c 'cat /va…"   20 minutes ago   Up 20 minutes             tor-in-docker_tor_1
