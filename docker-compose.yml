@@ -1,0 +1,8 @@
+version: "3"
+services:
+  tor:
+    build: . # when bulding over and over, the vanity address will be randomized
+    restart: always
+  nginx:
+    image: nginx
+    restart: always
