@@ -16,6 +16,8 @@ You should check this article to understand deeper how this works
 
 # Demo Logs
 
+Output log (without build)
+
 ```
 $ docker ps
 CONTAINER ID   IMAGE               COMMAND                  CREATED          STATUS          PORTS     NAMES
@@ -58,3 +60,7 @@ May 28 04:36:33.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake fin
 May 28 04:36:33.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
 May 28 04:36:33.000 [notice] Bootstrapped 100% (done): Done
 ```
+
+Screenshot from tor browser
+
+![2](https://user-images.githubusercontent.com/4345690/170810862-7ad1023f-8252-4833-9757-1174626f67e7.png)
