@@ -1,4 +1,4 @@
-FROM ubuntu:jammy as addr-builder
+FROM ubuntu:focal as addr-builder
 
 WORKDIR /tmp
 RUN apt update && \
