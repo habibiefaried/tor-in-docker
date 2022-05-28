@@ -8,9 +8,3 @@ services:
     restart: always
     stdin_open: true
     tty: true
-    ports:
-      - "18453:8453"
-  # knotresolver:
-  #   image: subfuzion/netcat
-  #   command: ["-vvvl","53"]
-  #   tty: true
