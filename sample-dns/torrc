@@ -1,0 +1,2 @@
+HiddenServiceDir /var/lib/tor/finalkey/
+HiddenServicePort 53 knotresolver:53
